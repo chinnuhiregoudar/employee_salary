@@ -1,4 +1,4 @@
-salary = 20000
+salary = int(input("Enter the employee's annual salary: "))
 
 if salary <= 20000:
     bonus = salary * 5 / 100
