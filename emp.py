@@ -1,12 +1,14 @@
-salary = int(input("Enter salary:"))
+salary = int(input("Enter salary: "))
 
-if(salary <= 20000):
-return bonus = salary * 5/100
+if salary <= 20000:
+    bonus = salary * 5 / 100
 
-elif(salary >= salar 20000 and 40000)
-return bonus = salary * 10/100
+elif salary > 20000 and salary <= 40000:
+    bonus = salary * 10 / 100
 
-else(salary > 40000):
-return bonus = salary * 15/100
+else:
+    bonus = salary * 15 / 100
 
-print("Employee's annual salary:")
+print("Employee's annual salary:", salary)
+print("Bonus:", bonus)
+print("Total salary:", salary + bonus)
